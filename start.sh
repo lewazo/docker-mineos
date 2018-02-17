@@ -12,6 +12,8 @@ echo "$TZ" > /etc/timezone
 rm /etc/localtime
 dpkg-reconfigure -f noninteractive tzdata
 
+cp /var/games/minecraft/mineos.conf /etc/mineos.conf
+
 # Create does not exists directories
 chown $USER:$GROUP $DATAPATH
 if [ ! -d $DATAPATH/ssl_certs ]; then
