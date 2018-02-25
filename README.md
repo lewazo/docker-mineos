@@ -1,4 +1,4 @@
-Fork of [yujiod/docker-mineos](https://github.com/yujiod/docker-mineos).
+Fork of [yujiod/docker-mineos](https://github.com/yujiod/docker-mineos). Docker image available on the [Docker Hub](https://hub.docker.com/r/lewazo/mineos/).
 ## Changes made in this fork
 * Add support for persistent config file through docker volumes.
 * Add support for changing timezones through the TZ env variable.
